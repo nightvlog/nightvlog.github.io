@@ -17,7 +17,7 @@ $container-max-width: 1000px;
 body {
   margin: 0;
   padding: 0;
-  background: $body-background url("../images/bkg.png") 0 0;
+  background: $body-background url("../assets/images/bkg.png") 0 0;
   color: $body-foreground;
   font-size: 16px;
   line-height: 1.5;
@@ -54,7 +54,7 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed $conifer; //header;
+  //border-bottom: 1px dashed $conifer; //header;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -150,7 +150,7 @@ dt {
 }
 
 ul li {
-  list-style-image:url('../images/bullet.png');
+  list-style-image:url('../assets/images/bullet.png');
 }
 
 blockquote {
@@ -236,7 +236,7 @@ hr {
 
 .btn-github .icon {
   opacity: 0.6;
-  background: url("../images/blacktocat.png") 0 0 no-repeat;
+  background: url("../assets/images/blacktocat.png") 0 0 no-repeat;
 }
 
 /* Links
